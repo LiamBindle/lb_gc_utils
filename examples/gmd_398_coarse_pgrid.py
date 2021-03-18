@@ -17,8 +17,8 @@ print(f'  date={date}')
 print(f'  out_dir={out_dir}')
 
 print("Loading datasets ...")
-spc_mmr = xr.open_dataset(data_dir.joinpath(f'GCHP.SpeciesConc.{date}.nc'))
-met = xr.open_dataset(data_dir.joinpath(f'GCHP.StateMet.{date}.nc'))
+spc_mmr = xr.open_dataset(data_dir.joinpath(f'GCHP.SpeciesConc.{date}_1200z.nc4'))
+met = xr.open_dataset(data_dir.joinpath(f'GCHP.StateMet.{date}_1200z.nc4'))
 
 # Keep only the relevant variables
 relevant_spc = [
