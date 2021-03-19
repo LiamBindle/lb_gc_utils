@@ -1,0 +1,58 @@
+{
+  "zonal": {
+    "SpeciesConc_O3": { "vmin": 0, "vmax": 1.4e-7 },
+    "SpeciesConc_CO": { "vmin": 0, "vmax": 1.2e-7 },
+    "SpeciesConc_PAN": { "vmin": 0, "vmax": 1.8e-10},
+    "SpeciesConc_SO2": { "vmin": 0, "vmax": 8e-11},
+    "SpeciesConc_CH2O": { "vmin": 0, "vmax": 2e-10},
+    "SpeciesConc_HNO3": { "vmin": 0, "vmax": 0.5e-09},
+    "SpeciesConc_NH3": { "vmin": 0, "vmax": 1e-10},
+    "SpeciesConc_NOx": { "vmin": 0, "vmax": 1e-10},
+    "comparison_levels": [-20, -10, -5, 0, 5,  10, 20],
+    "ylim": [900, 110],
+    "gaussian_filter_sigma": 2,
+    "mask_cutoff_rel_to_vmax": 0.005,
+    "clabel_fontsize": 6,
+    "figsize": [2, 1.5]
+  },
+  "900hPa": {
+    "SpeciesConc_O3": { "vmin": 0, "vmax": 4e-8 },
+    "SpeciesConc_CO": { "vmin": 0, "vmax": 1e-7 },
+    "SpeciesConc_PAN": { "vmin": 0, "vmax": 1.5e-10},
+    "SpeciesConc_SO2": { "vmin": 0, "vmax": 3e-10},
+    "SpeciesConc_CH2O": { "vmin": 0, "vmax": 1e-9},
+    "SpeciesConc_HNO3": { "vmin": 0, "vmax": 6e-10},
+    "SpeciesConc_NH3": { "vmin": 0, "vmax": 9e-10},
+    "SpeciesConc_NOx": { "vmin": 0, "vmax": 1.5e-10},
+    "comparison_levels": [-20, -10, -5, 0, 5,  10, 20],
+    "gaussian_filter_sigma": 2,
+    "mask_cutoff_rel_to_vmax": 0.005,
+    "clabel_fontsize": 6,
+    "figsize": [2, 1.5]
+  },
+  "500hPa": {
+    "SpeciesConc_O3": { "vmin": 0, "vmax": 6e-08 },
+    "SpeciesConc_CO": { "vmin": 0, "vmax": 9e-08 },
+    "SpeciesConc_PAN": { "vmin": 0, "vmax": 2e-10},
+    "SpeciesConc_SO2": { "vmin": 0, "vmax": 2e-11},
+    "SpeciesConc_CH2O": { "vmin": 0, "vmax": 2.5e-10},
+    "SpeciesConc_HNO3": { "vmin": 0, "vmax": 2.5e-10},
+    "SpeciesConc_NH3": { "vmin": 0, "vmax": 1.5e-10},
+    "SpeciesConc_NOx": { "vmin": 0, "vmax": 6e-11},
+    "comparison_levels": [-20, -10, -5, 0, 5,  10, 20],
+    "gaussian_filter_sigma": 2,
+    "mask_cutoff_rel_to_vmax": 0.005,
+    "clabel_fontsize": 6,
+    "figsize": [2, 1.5]
+  },
+  "200hPa": {
+    "SpeciesConc_O3": { "vmin": 0, "vmax": 3.858e-07 },
+    "SpeciesConc_CO": { "vmin": 0, "vmax": 7.917e-08 },
+    "SpeciesConc_PAN": { "vmin": 0, "vmax": 2.077e-10},
+    "SpeciesConc_SO2": { "vmin": 0, "vmax": 1.386e-11},
+    "SpeciesConc_CH2O": { "vmin": 0, "vmax": 1.03e-10},
+    "SpeciesConc_HNO3": { "vmin": 0, "vmax": 2.049e-09},
+    "SpeciesConc_NH3": { "vmin": 0, "vmax": 6.23e-11},
+    "SpeciesConc_NOx": { "vmin": 0, "vmax": 2e-10}
+  }
+}
